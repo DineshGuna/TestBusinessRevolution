@@ -1,0 +1,77 @@
+/*Auteur: Dinesh GUNASEKARAN*/
+/*Derniere maj: 24/09*/
+/*Fichier CSS*/
+
+
+body {
+    margin: 0;
+    min-width: 250px;
+}
+
+/* Reglages tailles blocs */
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#myUL{
+    display: inline-block;
+    border: 2px ;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#myTasks{
+    margin: 0 ;
+}
+
+#progress {
+    width: 50%;
+    text-align: center;
+    height: 30px;
+}
+
+/* Style de la liste */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    font-size: 18px;
+    transition: 0.2s;
+
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+    background: #e6faff;
+}
+
+/* Style du header */
+.header {
+    background-color: #007a99;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+.list{
+    padding: 10px;
+}
+
+/*Style de la barre de progression et son label */
+
+.progressbar-container {
+    position: relative;
+
+}
+
+.progressbar-label {
+    position: absolute;
+    top: 4px;
+    margin: 2px;
+
+}
+
+.ready { font-size: 1.5em; }
